@@ -1,6 +1,6 @@
 # lein-swagger
 
-A Leiningen plugin to do generate swagger clients in Clojure.
+A Leiningen plugin to generate swagger clients in Clojure.
 
 ## Usage
 
