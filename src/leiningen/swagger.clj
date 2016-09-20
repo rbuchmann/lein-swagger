@@ -115,7 +115,7 @@
                "\n"
                source))))
 (defn swagger
-  "Generates a swagger client from the specifications. Mandatory arguments:\n:name -> client project name\n:input -> swagger input file location\n:path -> output path"
+  "Generates a swagger client from the specifications. Mandatory arguments:\n:name -> client project name\n:src -> swagger input file location"
   [project & args]
   (let [{:keys [src name] :as m} (parse-args args)]
     (check-keys m [:src :name])
